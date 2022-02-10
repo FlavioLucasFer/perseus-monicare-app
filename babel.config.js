@@ -9,6 +9,7 @@ module.exports = {
 			  alias: {
 					tests: ['./tests/'],
         	"@components": "./src/components",
+        	"@api": "./src/api/index.ts",
 			  }
 	    }
     ]
