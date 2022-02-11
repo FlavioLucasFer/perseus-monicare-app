@@ -44,7 +44,7 @@ class AuthService {
 		HttpRequestService.authenticationToken = '';
 	}
 
-	public static async me(): Promise<Doctor | Patient | Caregiver> {
+	public static async me(): Promise<Patient | Caregiver> {
 		let res: any;
 
 		try {
@@ -54,9 +54,6 @@ class AuthService {
 		}
 
 		switch (res.user.type) {
-			case 'DC':
-				return responseToDoctor(res);
-
 			case 'CG':
 				return responseToCaregiver(res);
 

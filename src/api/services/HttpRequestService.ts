@@ -14,7 +14,7 @@ class HttpRequestService {
 	private static instance: HttpRequestService;
 	private static config: HttpRequestConfigT = {
 		protocol: 'http',
-		host: 'localhost',
+		host: '192.168.1.2',
 		port: 8000,
 		prefix: 'api',
 	};
