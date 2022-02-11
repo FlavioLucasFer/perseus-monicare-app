@@ -45,11 +45,14 @@
        "tests": [
 				"tests/*"
 			],
+			"@api": [
+			 "src/api/index.ts"
+		 ],
        "@components/*": [
 				"src/components/*"
 			],
-       "@api": [
-				"src/api/index.ts"
+       "@screens/*": [
+				"src/screens/*"
 			],
 		},
     // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
