@@ -6,13 +6,7 @@ import {
 } from 'react-native-router-flux';
 
 import Login from '@screens/Login';
-import { Text } from 'react-native';
-
-const Measurements = () => {
-	return (
-		<Text>measurements</Text>
-	);
-};
+import Measurements from '@screens/Measurements';
 
 const App = () => {
   return (

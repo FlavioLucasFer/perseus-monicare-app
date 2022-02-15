@@ -7,6 +7,8 @@ import {
 	TouchableOpacityProps, 
 } from 'react-native';
 
+import { main, secondary } from '@utils/colors';
+
 interface LoginButtonProps extends TouchableOpacityProps {
 	title: string,
 	loading?: boolean,
@@ -19,16 +21,16 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		alignItems: 'center',
 
-		backgroundColor: '#FC9A9A',
+		backgroundColor: secondary.red,
 		borderWidth: 2,
-		borderColor: '#FF1616',
+		borderColor: main.red,
 		borderRadius: 50,
 		padding: 10,
 	},
 
 	disabled: {
-		backgroundColor: '#FC9A9A4D',
-		borderColor: '#FF16164D',
+		backgroundColor: `${secondary.red}4D`,
+		borderColor: `${main.red}4D`,
 	},
 
 	title: {
