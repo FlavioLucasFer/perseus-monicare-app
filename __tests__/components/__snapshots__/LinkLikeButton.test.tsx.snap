@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LinkLikeButton component Should render properly 1`] = `
+"<TouchableOpacity>
+  <Text style={{...}}>
+    teste
+  </Text>
+</TouchableOpacity>"
+`;
