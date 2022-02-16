@@ -105,6 +105,9 @@
 		},
 		"setupFiles": [
 			"./setup-tests.ts"
+		],
+		"transformIgnorePatterns": [
+			"node_modules/(?!(@react-native|react-native|react-native-elements|react-native-ratings|react-native-size-matters)/)"
 		]
   }
 }
