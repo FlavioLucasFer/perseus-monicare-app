@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Should render properly 1`] = `
+"<TouchableOpacity style={{...}}>
+  <Text style={{...}}>
+    teste
+  </Text>
+</TouchableOpacity>"
+`;

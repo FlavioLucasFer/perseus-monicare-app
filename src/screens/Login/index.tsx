@@ -17,6 +17,7 @@ const styles = StyleSheet.create({
 		flex: 1,
 		justifyContent: 'center',
 
+		backgroundColor: '#fff',
 		padding: 20, 
 	},
 	body: {
@@ -141,7 +142,7 @@ const Login = () => {
 
 						<Button 
 							title='Entrar'
-							onPress={handleSubmit}
+							onPress={handleSubmit as any}
 							disabled={!isValid(values) || isSubmitting}
 							loading={isSubmitting}
 						/>

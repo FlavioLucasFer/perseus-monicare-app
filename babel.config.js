@@ -11,6 +11,7 @@ module.exports = {
         	"@api": "./src/api/index.ts",
         	"@components": "./src/components",
         	"@screens": "./src/screens",
+        	"@utils": "./src/utils",
 			  }
 	    }
     ]

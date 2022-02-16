@@ -4,6 +4,7 @@ import Caregiver, { KinshipT, CaregiverAttributesT } from 'api/models/Caregiver'
 import Patient, { PatientAttributesT } from 'api/models/Patient';
 import Doctor, { DoctorAttributesT } from 'api/models/Doctor';
 
+import MeasurementTypeRepository from 'api/repositories/MeasurementTypeRepository';
 import CaregiverRepository, { NewCaregiverT } from 'api/repositories/CaregiverRepository';
 import PatientRepository, { NewPatientT } from 'api/repositories/PatientRepository';
 import DoctorRepository, { NewDoctorT } from 'api/repositories/DoctorRepository';
@@ -39,6 +40,7 @@ export {
 };
 
 export {
+	MeasurementTypeRepository,
 	CaregiverRepository,
 	PatientRepository,
 	DoctorRepository,
