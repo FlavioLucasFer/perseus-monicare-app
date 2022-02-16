@@ -88,10 +88,21 @@
 			"json",
 			"node"
 		],
+		"roots": [
+			"<rootDir>"
+		],
 		"modulePaths": [
 			"<rootDir>",
 			"<rootDir>/src"
 		],
+		"moduleDirectories": [
+			"node_modules",
+			"src",
+			"src/utils"
+		],
+		"moduleNameMapper": {
+			"@utils/(.*)$": "<rootDir>/src/utils/$1"
+		},
 		"setupFiles": [
 			"./setup-tests.ts"
 		]
