@@ -142,7 +142,7 @@ const Login = () => {
 
 						<Button 
 							title='Entrar'
-							onPress={handleSubmit}
+							onPress={handleSubmit as any}
 							disabled={!isValid(values) || isSubmitting}
 							loading={isSubmitting}
 						/>

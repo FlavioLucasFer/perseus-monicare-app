@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login screen Should render properly 1`] = `
+"<Formik initialValues={{...}} onSubmit={[Function: handleSubmit]} validate={[Function: handleValidate]}>
+  [function]
+</Formik>"
+`;
